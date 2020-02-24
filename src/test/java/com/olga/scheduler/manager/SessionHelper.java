@@ -12,12 +12,13 @@ public class SessionHelper extends HelperBase {
 
     public void fillLogInForm(User user) {
 
-        type(By.id(""), user.getUserName());
-        type(By.id(""), user.getPassword());
+        type(By.id("log_email_input"), user.getUserName());
+        type(By.id("log_password_input"), user.getPassword());
+        driver.hideKeyboard();
 
     }
 
     public void confirmLogin() {
-        tap(By.id(""));
+        tap(By.id("login_btn"));
     }
 }

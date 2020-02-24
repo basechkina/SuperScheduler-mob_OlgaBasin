@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1df05827-1da6-422b-bfaa-94ec7e457dd7" name="Default Changelist" comment="" />
+    <list default="true" id="1df05827-1da6-422b-bfaa-94ec7e457dd7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/olgabasina.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/olgabasina.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/olga/scheduler/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/olga/scheduler/manager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/olga/scheduler/manager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/olga/scheduler/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/olga/scheduler/model/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y46a3K1XUxUnZYcSa0KnI4vd81" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,7 +63,7 @@
       <recent name="com.olga.scheduler" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FirstTest">
+  <component name="RunManager" selected="TestNG.LoginTest.testLogIn">
     <configuration name="FirstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -131,8 +139,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.testLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SuperScheduler-mob_OlgaBasin.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.olga.scheduler.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.olga.scheduler.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.olga.scheduler.tests.LoginTest" />
+      <option name="METHOD_NAME" value="testLogIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.testLogIn" />
         <item itemvalue="TestNG.FirstTest" />
         <item itemvalue="TestNG.FirstTest.testOpenApp" />
         <item itemvalue="Gradle.FirstTest" />
@@ -183,26 +210,34 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="423" y="184" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.23.1440.806@0.23.1440.806" timestamp="1582476222968" />
-    <state width="1358" height="193" key="GridCell.Tab.0.bottom" timestamp="1582190519710">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1358" height="193" key="GridCell.Tab.0.bottom" timestamp="1582482372533">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1582190519710" />
     <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1582190006306" />
-    <state width="1358" height="193" key="GridCell.Tab.0.center" timestamp="1582190519708">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1582482372533" />
+    <state width="1358" height="193" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1582482139835" />
+    <state width="1358" height="193" key="GridCell.Tab.0.center" timestamp="1582482372532">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1582190519708" />
     <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1582190006305" />
-    <state width="1358" height="193" key="GridCell.Tab.0.left" timestamp="1582190519707">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1582482372532" />
+    <state width="1358" height="193" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1582482139833" />
+    <state width="1358" height="193" key="GridCell.Tab.0.left" timestamp="1582482372531">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1582190519707" />
     <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1582190006304" />
-    <state width="1358" height="193" key="GridCell.Tab.0.right" timestamp="1582190519708">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1582482372531" />
+    <state width="1358" height="193" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1582482139832" />
+    <state width="1358" height="193" key="GridCell.Tab.0.right" timestamp="1582482372532">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1582190519708" />
     <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1582190006306" />
+    <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1582482372532" />
+    <state width="1358" height="193" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1582482139835" />
     <state x="380" y="72" key="RefactorJ.IntroduceParameterObject" timestamp="1582478556288">
       <screen x="0" y="23" width="1440" height="814" />
     </state>

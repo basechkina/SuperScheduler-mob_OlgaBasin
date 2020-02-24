@@ -4,12 +4,14 @@ public class User {
     private String userName;
     private String password;
 
-    public void withUserName(String userName) {
+    public User withUserName(String userName) {
         this.userName = userName;
+        return this;
     }
 
-    public void withPassword(String password) {
+    public User withPassword(String password) {
         this.password = password;
+        return this;
     }
 
     public String getUserName() {
